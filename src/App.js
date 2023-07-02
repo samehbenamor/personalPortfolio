@@ -1,14 +1,15 @@
 
 import './App.css';
 import React from 'react';
-import Header from './Components/Header';
-import Main from './Components/Main';
+import { NavBar } from './Components/NavBar';
+import 'bootstrap/dist/css/bootstrap.css';
+import {Banner } from './Components/Banner';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Main/>
+      <NavBar/>
+      <Banner/>
     </div>
   );
 }
